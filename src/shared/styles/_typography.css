@@ -1,0 +1,52 @@
+@font-face {
+    font-family: REM;
+    font-weight: 100;
+    src: url('../font/REM-Thin.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 200;
+    src: url('../font/REM-ExtraLight.ttf');
+}
+@font-face {
+    font-family: REM;
+    font-weight: 300;
+    src: url('../font/REM-Light.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 400;
+    src: url('../font/REM-Regular.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 500;
+    src: url('../font/REM-Medium.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 600;
+    src: url('../font/REM-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 700;
+    src: url('../font/REM-Bold.ttf');
+}
+
+@font-face {
+    font-family: REM;
+    font-weight: 800;
+    src: url('../font/REM-ExtraBold.ttf');
+}
+
+*,
+html, 
+body {
+    font-family: 'REM', sans-serif;
+}

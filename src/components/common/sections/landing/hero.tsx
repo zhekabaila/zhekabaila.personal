@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import Container from '@/components/layout/container'
+import Button from '@/components/ui/Button'
 
 const LandingHero = () => {
   return (
@@ -33,12 +34,14 @@ const LandingHero = () => {
               – Andy Warhol
             </p>
             <div className="mt-16">
-              <button
+              <Button
                 type="button"
-                className="bg-primary py-5 px-7 text-white text-base font-semibold rounded-lg uppercase"
+                rounded="lg"
+                url="/about"
+                className="bg-primary py-5 px-7 text-white text-base font-semibold"
               >
-                more about me
-              </button>
+                More about me
+              </Button>
             </div>
           </div>
         </div>

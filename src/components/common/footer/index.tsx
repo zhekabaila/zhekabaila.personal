@@ -7,11 +7,11 @@ import { BiLogoFacebook, BiLogoInstagram } from 'react-icons/bi'
 const Footer = () => {
   return (
     <Container className="py-10">
-      <footer className="flex justify-between items-ceter">
-        <div>
+      <footer className="flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row justify-center lg:justify-between items-ceter">
+        <div className="text-center lg:text-left">
           <p>&copy; {new Date().getFullYear()} Zheka Baila Arkan</p>
         </div>
-        <ul className="flex items-center gap-x-7">
+        <ul className="flex justify-center items-center gap-x-7">
           <li className="flex">
             <Link href="/" className="bg-secondary p-2 rounded-full">
               <BiLogoFacebook color="#000000" size={24} />
@@ -23,7 +23,7 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <div>
+        <div className="text-center lg:text-left">
           <p>Website by Zheka Baila Arkan</p>
         </div>
       </footer>

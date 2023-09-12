@@ -11,37 +11,33 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <Container className="pt-10">
-      <nav className="flex flex-col justify-center items-center space-y-14">
-        <Link href="/">
-          <div className="flex flex-col justify-center items-center text-center space-y-3">
-            <h1 className="text-5xl text-[#262626] font-lobster font-thin italic">
-              Zheka Baila Arkan
+    <header className="py-7 sticky top-0 left-0 bg-white z-50">
+      <Container>
+        <nav className="flex items-center gap-x-16">
+          <Link href="/">
+            <h1 className="text-4xl text-[#262626] font-lobster font-extrabold">
+              zhekabaila
             </h1>
-            <p className="text-base font-light text-slate-600 uppercase">
-              Frontend web dev
-            </p>
-          </div>
-        </Link>
-        <ul className="flex justify-center gap-10 items-center flex-wrap">
-          {menus.map(({ name, link }, index: number) => (
-            <li key={index}>
-              <Link href={link}>
-                <div
-                  className={cn(
-                    'text-dark text-base font-medium py-3 px-6 bg-secondary hover:bg-[#e2e2e2] transition-all ease-in-out duration-300 rounded-l-full rounded-r-full',
-                    link === pathname &&
-                      'text-dark bg-[#e2e2e2] outline outline-2 outline-black'
-                  )}
-                >
-                  {name}
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </Container>
+          </Link>
+          <ul className="flex justify-center gap-10 items-center flex-wrap">
+            {menus.map(({ name, link }, index: number) => (
+              <li key={index}>
+                <Link href={link}>
+                  <div
+                    className={cn(
+                      'text-dark text-base font-medium transition-all ease-in-out duration-300',
+                      link === pathname && 'text-black'
+                    )}
+                  >
+                    {name}
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </Container>
+    </header>
   )
 }
 

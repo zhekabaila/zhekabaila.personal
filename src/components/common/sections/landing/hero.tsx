@@ -1,51 +1,39 @@
-import Image from 'next/image'
+'use client'
 
+// import { motion } from 'framer-motion'
 import Container from '@/components/layout/container'
-import Button from '@/components/ui/Button'
+import Image from 'next/image'
 
 const LandingHero = () => {
   return (
     <section>
-      <Container className="py-28">
-        <div className="flex flex-col md:flex-row justify-start items-center gap-x-7">
-          <div className="basis-1/4">
-            <Image
-              src="/static/icons/400x600.svg"
-              width={400}
-              height={600}
-              className="rounded-2xl"
-              alt="my foto"
-            />
+      {/* <motion.div
+        className="container text-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }},
+      > */}
+      <Container className="">
+        <div className="flex items-center py-24">
+          <div className="basis-1/2 space-y-3">
+            <h1 className="text-3xl font-semibold">Hi there!</h1>
+            <p>my name is zheka baila arkan</p>
           </div>
-          <div className="basis-3/4">
-            <h1 className="text-dark font-semibold text-[44px] leading-normal">
-              Hey, I&apos;m Zheka!
-            </h1>
-            <p className="mt-5 text-[26px] leading-normal text-[#555]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              facere architecto sit, eaque maiores libero velit. At doloremque
-              facere quisquam.
-            </p>
-            <p className="mt-5 text-[20px] leading-normal text-[#555]">
-              <span className="italic">
-                &quot;The best thing about a picture is that it never changes,
-                even when the people in it do.&quot;
-              </span>{' '}
-              – Andy Warhol
-            </p>
-            <div className="mt-16">
-              <Button
-                type="button"
-                rounded="lg"
-                url="/about"
-                className="bg-primary py-5 px-7 text-white text-base font-semibold"
-              >
-                More about me
-              </Button>
+          <div className="flex justify-center basis-1/2">
+            <div className="relative">
+              <Image
+                src="/static/icons/500.svg"
+                width={250}
+                height={250}
+                alt="My Foto"
+                className="rounded-xl drop-shadow-lg"
+              />
             </div>
           </div>
         </div>
       </Container>
+      {/* </motion.div> */}
     </section>
   )
 }

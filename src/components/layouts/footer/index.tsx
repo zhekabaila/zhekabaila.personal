@@ -1,0 +1,46 @@
+import Link from 'next/link'
+import React from 'react'
+import { CiInstagram, CiMail } from 'react-icons/ci'
+
+const Footer = () => {
+  return (
+    <footer id="footer" className="px-36 mt-44">
+      <div
+        className="flex justify-between items-center gap-x-6 p-10 rounded-t-3xl"
+        style={{
+          background: '#fff8f0',
+          boxShadow: 'inset -7px 7px 5px #c4bfb9,inset 7px -7px 5px #ffffff',
+        }}
+      >
+        <h1 className="font-abel text-center text-[#272727] text-3xl font-normal">
+          ZHEKA BAILA ARKAN
+        </h1>
+        <ul className="flex items-center justify-center gap-x-6">
+          <li className="text-black text-2xl font-semibold font-abel">
+            <Link href="about">About</Link>
+          </li>
+          <li className="text-black text-2xl font-semibold font-abel">
+            <Link href="skills">Skills</Link>
+          </li>
+          <li className="text-black text-2xl font-semibold font-abel">
+            <Link href="projects">Projects</Link>
+          </li>
+        </ul>
+        <ul className="flex items-center gap-x-6">
+          <li>
+            <Link href="https://instagram.com/zhekabailaa" target="_blank">
+              <CiInstagram size={32} color="#272727" />
+            </Link>
+          </li>
+          <li>
+            <Link href="mailto:zhekabailaa@gmail.com" target="_blank">
+              <CiMail size={32} color="#272727" />
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer

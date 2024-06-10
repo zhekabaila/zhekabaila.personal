@@ -1,41 +1,36 @@
-'use client'
-
-// import { motion } from 'framer-motion'
-import Container from '@/components/layout/container'
 import Image from 'next/image'
+import React from 'react'
 
-const LandingHero = () => {
+export const Hero = () => {
   return (
-    <section>
-      {/* <motion.div
-        className="container text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5 }},
-      > */}
-      <Container className="">
-        <div className="flex items-center py-24">
-          <div className="basis-1/2 space-y-3">
-            <h1 className="text-3xl font-semibold">Hi there!</h1>
-            <p>my name is zheka baila arkan</p>
+    <section id="hero" className="px-36 min-h-screen snap-start">
+      <div>
+        <h2 className="text-[#272727] font-abel tracking-widest text-[125px] leading-[1] font-bold">
+          HI THERE!
+        </h2>
+        <p className="text-[#272727] text-3xl font-abel mt-9">
+          I&apos;am Zheka Baila Arkan
+        </p>
+        <div className="flex items-center justify-between mt-28">
+          <div className="rounded-full shadow-profil">
+            <Image
+              src="/zhekabaila.jpg"
+              width={230}
+              height={230}
+              alt="zhekabaila"
+              quality={100}
+              loading="lazy"
+              className="object-center aspect-square object-cover rounded-full"
+            />
           </div>
-          <div className="flex justify-center basis-1/2">
-            <div className="relative">
-              <Image
-                src="/static/icons/500.svg"
-                width={250}
-                height={250}
-                alt="My Foto"
-                className="rounded-xl drop-shadow-lg"
-              />
-            </div>
-          </div>
+          <p className="text-[#272727] font-abel text-4xl font-bold max-w-5xl leading-[1.5]">
+            Saya adalah seorang Junior Frontend Web Development, saya sangat
+            tertarik dengan bidang Software Engineer sejak saya duduk di bangku
+            SMK. Saya cukup familiar dengan bahasa pemrograman yang digunakan
+            untuk mengembangkan sebuah website.
+          </p>
         </div>
-      </Container>
-      {/* </motion.div> */}
+      </div>
     </section>
   )
 }
-
-export default LandingHero

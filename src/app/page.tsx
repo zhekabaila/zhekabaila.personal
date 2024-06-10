@@ -1,16 +1,19 @@
-import { Metadata } from 'next'
+import {
+  Hero,
+  Skil,
+  About,
+  Project,
+} from '@/components/common/sections/landing'
 
-import LandingHero from '@/components/common/sections/landing/hero'
-
-export const metadata: Metadata = {
-  title: 'Home | Zheka Baila Arkan',
-  description: 'Home page',
-}
-
-export default function Home() {
+const Home = () => {
   return (
-    <main>
-      <LandingHero />
-    </main>
+    <div className="snap-y snap-mandatory">
+      <Hero />
+      <About />
+      <Skil />
+      <Project />
+    </div>
   )
 }
+
+export default Home

@@ -8,14 +8,16 @@ const SkillCard = dynamic(() => import('@/components/ui/cards/skill'), {
   loading: () => <SkillSkeleton />,
 })
 
-export const Skil = () => {
+export const Skill = () => {
   const shuffleArray = (array: SkilType[]): SkilType[] => {
     return array.sort(() => Math.random() - 0.5)
   }
 
   return (
-    <section id="skil" className="px-36 snap-start my-60">
-      <h2 className="font-abel text-[#272727] text-5xl font-bold">Skils</h2>
+    <section id="skills" className="snap-start my-60">
+      <h2 className="px-4 lg:px-36 font-abel text-[#272727] text-4xl lg:text-5xl font-bold">
+        Skills
+      </h2>
       <Marquee className="mt-10 py-3">
         {shuffleArray([...skills]).map((item, index) => (
           <SkillCard icon={item.icon} name={item.name} key={index} />

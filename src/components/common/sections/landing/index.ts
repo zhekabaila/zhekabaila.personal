@@ -1,4 +1,4 @@
 export { About } from './about'
-export { Skil } from './skil'
+export { Skill } from './skill'
 export { Project } from './project'
 export { Hero } from './hero'

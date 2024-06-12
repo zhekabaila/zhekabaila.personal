@@ -4,9 +4,9 @@ import { CiInstagram, CiMail } from 'react-icons/ci'
 
 const Footer = () => {
   return (
-    <footer id="footer" className="px-36 mt-44">
+    <footer id="footer" className="px-4 lg:px-36 mt-44">
       <div
-        className="flex justify-between items-center gap-x-6 p-10 rounded-t-3xl"
+        className="flex flex-col lg:flex-row justify-between items-center gap-x-6 gap-y-20 p-10 rounded-t-xl"
         style={{
           background: '#fff8f0',
           boxShadow: 'inset -7px 7px 5px #c4bfb9,inset 7px -7px 5px #ffffff',

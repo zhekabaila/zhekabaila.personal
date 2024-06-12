@@ -72,7 +72,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${abel.variable} ${poppins.className} bg-[#fff8f0]`}>
         <Navbar />
-        <main className="mt-56">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

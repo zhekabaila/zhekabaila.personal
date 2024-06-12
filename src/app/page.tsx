@@ -1,6 +1,6 @@
 import {
   Hero,
-  Skil,
+  Skill,
   About,
   Project,
 } from '@/components/common/sections/landing'
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="snap-y snap-mandatory">
       <Hero />
       <About />
-      <Skil />
+      <Skill />
       <Project />
     </div>
   )

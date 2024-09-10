@@ -15,7 +15,7 @@ export const Skill = () => {
 
   return (
     <section id="skills" className="snap-start my-60">
-      <h2 className="px-4 lg:px-36 font-abel text-[#272727] text-4xl lg:text-5xl font-bold">
+      <h2 className="px-4 lg:px-36 text-dark dark:text-primary text-4xl lg:text-5xl font-bold">
         Skills
       </h2>
       <Marquee className="mt-10 py-3">

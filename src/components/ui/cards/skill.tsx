@@ -16,7 +16,7 @@ const SkillCard: React.FC<SkillCard> = ({ name, icon, ...props }) => {
       }}
     >
       <div className="size-[45px]">{icon}</div>
-      <h3 className="font-abel text-xl lg:text-2xl font-semibold">{name}</h3>
+      <h3 className="text-xl lg:text-2xl font-semibold">{name}</h3>
     </div>
   )
 }

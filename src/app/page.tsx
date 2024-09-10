@@ -7,12 +7,13 @@ import {
 
 const Home = () => {
   return (
-    <div className="snap-y snap-mandatory">
+    // <div className="snap-y snap-mandatory">
+    <>
       <Hero />
       <About />
       <Skill />
       <Project />
-    </div>
+    </>
   )
 }
 

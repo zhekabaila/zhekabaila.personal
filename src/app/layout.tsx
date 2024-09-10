@@ -1,20 +1,17 @@
-import type { Metadata } from 'next'
-import { Poppins, Abel } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/layouts/navbar'
-import Footer from '@/components/layouts/footer'
+import dynamic from 'next/dynamic'
+import type { Metadata } from 'next'
+import { Abel } from 'next/font/google'
+import { DarkModeProvider } from '@/hooks/context/darkMode'
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700'],
-  style: ['normal', 'italic'],
-})
+const Navbar = dynamic(() => import('@/components/layouts/navbar'))
+const Footer = dynamic(() => import('@/components/layouts/footer'))
 
 const abel = Abel({
   weight: '400',
   style: 'normal',
-  variable: '--font-abel',
   subsets: ['latin'],
+  variable: '--font-abel',
 })
 
 const title = 'Personal Website - Zheka Baila Arkan'
@@ -69,12 +66,14 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${abel.variable} ${poppins.className} bg-[#fff8f0]`}>
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <DarkModeProvider>
+      <html lang="en" className="light">
+        <body className={`${abel.className} bg-[#fff8f0] dark:bg-dark`}>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </html>
+    </DarkModeProvider>
   )
 }

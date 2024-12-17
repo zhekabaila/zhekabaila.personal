@@ -1,19 +1,17 @@
-import {
-  Hero,
-  Skill,
-  About,
-  Project,
-} from '@/components/common/sections/landing'
+import Container from '@/components/Container'
 
 const Home = () => {
   return (
-    // <div className="snap-y snap-mandatory">
-    <>
-      <Hero />
-      <About />
-      <Skill />
-      <Project />
-    </>
+    <Container margin={false}>
+      <section className="min-h-screen flex items-center">
+        <h2 className="font-medium text-9xl">
+          Welcome!
+          <br />
+          to my <br />
+          website
+        </h2>
+      </section>
+    </Container>
   )
 }
 

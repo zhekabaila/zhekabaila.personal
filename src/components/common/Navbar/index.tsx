@@ -1,11 +1,16 @@
+'use client'
+
+import { usePathname } from 'next/navigation'
 import { menus } from '@/constant/menu'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+  const pathname = usePathname()
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50">
+    <nav className="fixed top-0 left-0 right-0 z-50 max-w-[2000px] mx-auto">
       <div className="flex items-center justify-between bg-white border-b-4 border-b-black w-full px-36">
         <div className="flex items-center">
           <div className="w-1 h-14 bg-black"></div>
@@ -32,7 +37,9 @@ const Navbar = () => {
               <li className="h-full">
                 <Link
                   href={href}
-                  className="flex items-center justify-center w-28 h-14 font-medium hover:bg-black hover:text-white"
+                  className={`flex items-center justify-center w-28 h-14 font-medium ${
+                    pathname === href ? 'bg-stabilo' : ''
+                  } hover:bg-stabilo`}
                 >
                   {label}
                 </Link>

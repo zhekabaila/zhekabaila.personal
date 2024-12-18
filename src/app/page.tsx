@@ -1,17 +1,20 @@
-import Container from '@/components/Container'
+import {
+  HomePortfolio,
+  HomeRoadmap,
+  HomeAbout,
+  HomeHero,
+  HomeContact,
+} from '@/components/common/Sections/Home'
 
 const Home = () => {
   return (
-    <Container margin={false}>
-      <section className="min-h-screen flex items-center">
-        <h2 className="font-medium text-9xl">
-          Welcome!
-          <br />
-          to my <br />
-          website
-        </h2>
-      </section>
-    </Container>
+    <>
+      <HomeHero />
+      <HomeAbout />
+      <HomePortfolio />
+      <HomeRoadmap />
+      <HomeContact />
+    </>
   )
 }
 

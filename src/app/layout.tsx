@@ -1,5 +1,5 @@
 import { Space_Grotesk } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/common/Navbar'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -21,9 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.className} antialiased`}>
+      <body className={`${spaceGrotesk.className} max-w-[2000px] mx-auto`}>
         <Navbar />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   )

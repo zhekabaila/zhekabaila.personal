@@ -1,14 +1,12 @@
-import Container from '../../Container'
-
 export const HomeHero = () => {
   return (
-    <Container id="hero" margin className="min-h-screen flex items-center">
-      <h2 className="font-medium text-9xl leading-tight">
+    <section id="hero" className="min-h-screen flex items-center mx-4 lg:mx-36">
+      <h2 className="font-medium text-6xl lg:text-9xl leading-tight">
         Halo!
         <br />
         nama saya <br />
         Zheka Baila Arkan
       </h2>
-    </Container>
+    </section>
   )
 }

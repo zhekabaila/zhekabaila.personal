@@ -34,7 +34,7 @@ const Footer = () => {
               <li className="h-full">
                 <Link
                   href={href}
-                  className={`flex items-center justify-center w-full h-14 font-medium border-x-4 border-x-black text-black ${
+                  className={`flex items-center justify-center w-full lg:w-28 h-14 font-medium border-x-4 border-x-black lg:border-x-0 lg:border-y-4 lg:border-y-black text-black ${
                     pathname === href ? 'bg-stabilo' : ''
                   } hover:bg-stabilo`}
                 >

@@ -10,7 +10,7 @@ export const HomeContact = () => {
         <div className="flex items-center gap-x-4">
           <h2 className="text-4xl lg:text-7xl font-bold">Get In Touch</h2>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-normal lg:items-center w-full gap-6 mt-10">
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center w-full gap-6 mt-10">
           <Link
             href="https://instagram.com/zhekabailaa"
             target="_blank"

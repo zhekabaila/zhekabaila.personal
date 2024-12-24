@@ -7,7 +7,7 @@ export const HomeAbout = () => {
       id="about"
       className="grid grid-cols-1 lg:grid-cols-2 border-t-4 border-t-black mx-4 lg:mx-36 py-10"
     >
-      <div className="flex flex-col justify-center pr-10">
+      <div className="flex flex-col justify-center lg:pr-10">
         <div className="flex items-center gap-x-4">
           <div className="bg-black size-3 rounded-full" />
           <h2 className="text-lg font-bold">About</h2>

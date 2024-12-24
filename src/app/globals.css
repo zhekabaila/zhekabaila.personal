@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: SFPRO;
-  src: url('./fonts/SF_PRO/SFPRODISPLAYBOLD.OTF');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: SFPRO;
-  src: url('./fonts/SF_PRO/SFPRODISPLAYMEDIUM.OTF');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: SFPRO;
-  src: url('./fonts/SF_PRO/SFPRODISPLAYREGULAR.OTF');
-  font-weight: 400;
-}
-
 html,
 body {
   background-color: #ffffff;

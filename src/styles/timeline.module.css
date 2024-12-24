@@ -1,0 +1,76 @@
+.TimelineContainer {
+  @apply relative grid grid-cols-1 lg:grid-cols-8 lg:grid-rows-2  mx-auto;
+}
+
+.Item {
+  @apply relative h-auto flex col-span-4 lg:last:col-span-10 pb-10 lg:pb-0 pl-10 lg:pl-0;
+}
+
+.Item:nth-of-type(odd) {
+  @apply lg:row-start-1 items-start;
+  border-left: 4px solid black;
+}
+
+.Item:nth-of-type(odd) .Bullet {
+  @apply top-[-0.5px] lg:-bottom-3.5 lg:top-auto;
+}
+
+.Item:nth-of-type(even) {
+  @apply lg:row-start-2 items-end lg:-top-1;
+  border-left: 4px solid black;
+}
+
+.Item:nth-of-type(even) .Bullet {
+  @apply top-0.5 lg:-top-3.5;
+}
+
+.Item:nth-of-type(2) {
+  @apply lg:col-start-3;
+}
+
+.Item:last-child {
+  @apply pb-20 lg:pb-0;
+}
+
+/* .Arrow {
+  content: '';
+  background-image: url('/icons/timeline-arrow-right.svg');
+  @apply absolute size-[27px] rotate-90 lg:rotate-0 bg-no-repeat z-10 bg-center bg-contain -bottom-[10px] lg:bottom-auto lg:top-[148px] -left-[12px] lg:left-auto lg:-right-2.5;
+} */
+
+.Item:last-child h3 {
+  @apply pr-0;
+}
+
+.Item:last-child p {
+  @apply pr-0;
+}
+
+@media (min-width: 1024px) {
+  .Item:nth-of-type(odd) {
+    padding-bottom: 100px;
+    border-left: 3px dashed black;
+    border-bottom: 4px solid black;
+  }
+  .Item:nth-of-type(even) {
+    padding-top: 100px;
+    border-left: 3px dashed black;
+    border-top: 4px solid black;
+  }
+}
+
+.ItemContent {
+  @apply relative -left-1 bg-white;
+}
+
+.Title {
+  @apply text-black text-xl font-bold pr-16 bg-white;
+}
+
+.Desc {
+  @apply text-black font-normal text-base mt-2 pr-16 -left-2 bg-white;
+}
+
+.Bullet {
+  @apply absolute left-[-14px] lg:-left-3 z-10 w-6 h-6 bg-stabilo border-[6px] border-[#0f0e17] border-solid rounded-full;
+}

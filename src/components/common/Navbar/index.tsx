@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="w-1 h-14 bg-black"></div>
           <Link
             href="/"
-            className="flex items-center gap-x-4 px-4 lg:px-14 lg:h-14 text-black hover:bg-black hover:text-white"
+            className="flex items-center gap-x-4 px-4 lg:px-14 h-14 text-black hover:bg-black hover:text-white"
           >
             <Image
               src="/icons/logo.png"
@@ -60,6 +60,9 @@ const Navbar = () => {
               <li className="h-full">
                 <Link
                   href={href}
+                  onClick={() => {
+                    setIsMenuOpen(false)
+                  }}
                   className={`flex items-center justify-center w-28 h-14 font-medium border-x-4 border-x-black lg:border-x-0 text-black ${
                     pathname === href ? 'bg-stabilo' : 'bg-white'
                   } hover:bg-stabilo`}

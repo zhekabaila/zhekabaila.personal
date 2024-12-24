@@ -36,6 +36,22 @@ export const portfolios: PortfolioType[] = [
     code: '',
   },
   {
+    title: 'Isea Instellar',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem iure natus ad, tempore dignissimos, vero at architecto sequi amet nam debitis maiores qui sed odio! Rem, repellendus dolorem.',
+    img: '/images/portfolios/isea-instellar.png',
+    technology: [
+      'react js',
+      'husky',
+      'typescript',
+      'tailwindcss',
+      'twin.macro',
+      'vite',
+    ],
+    demo: 'https://isea.instellar.id/',
+    code: '',
+  },
+  {
     title: 'E-Agenda Kelas',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem iure natus ad, tempore dignissimos, vero at architecto sequi amet nam debitis maiores qui sed odio! Rem, repellendus dolorem.',

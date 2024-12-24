@@ -12,6 +12,7 @@ export default {
       },
       boxShadow: {
         button: '7px 7px 0px 3px #000',
+        figure: '14px 14px 0px 3px #000',
       },
     },
   },

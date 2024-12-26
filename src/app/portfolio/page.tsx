@@ -8,8 +8,8 @@ const Portfolio = () => {
     <>
       <section className="mx-4 lg:mx-36 py-10 mt-16">
         <div className="flex items-center gap-x-4">
-          <div className="bg-black size-3 rounded-full" />
-          <h2 className="text-lg font-bold">My Projects</h2>
+          <div className="bg-black size-2.5 lg:size-3" />
+          <h2 className="text-base lg:text-lg font-bold">My Projects</h2>
         </div>
         <div className="grid grid-cols-1 gap-10 mt-20">
           {portfolios.map((item, index) => (
@@ -28,7 +28,7 @@ const Portfolio = () => {
                   <p className="text-base lg:text-lg mt-4">
                     {item.description}
                   </p>
-                  <div className="flex items-center flex-wrap gap-4 mt-4">
+                  <div className="flex items-center flex-wrap gap-4 mt-6 lg:mt-4">
                     {item.technology.map((tech, index) => (
                       <div
                         className="px-3 py-1 bg-white border border-black rounded-full"
@@ -47,7 +47,7 @@ const Portfolio = () => {
                       className="flex items-center gap-x-4"
                     >
                       <FaGithub />
-                      <p>Source Code</p>
+                      <p className="text-sm lg:text-base">Source Code</p>
                     </Link>
                   )}
                   {item.demo && (
@@ -57,7 +57,7 @@ const Portfolio = () => {
                       className="flex items-center gap-x-4"
                     >
                       <FaExternalLinkAlt />
-                      <p>Live Demo</p>
+                      <p className="text-sm lg:text-base">Live Demo</p>
                     </Link>
                   )}
                 </div>

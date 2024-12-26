@@ -15,10 +15,21 @@ const About = () => {
       <section className="grid grid-cols-1 lg:grid-cols-2 mx-4 lg:mx-36 py-10 mt-16">
         <div className="flex flex-col justify-center lg:pr-10">
           <div className="flex items-center gap-x-4">
-            <div className="bg-black size-3 rounded-full" />
-            <h2 className="text-lg font-bold">About</h2>
+            <div className="bg-black size-2.5 lg:size-3" />
+            <h2 className="text-base lg:text-lg font-bold">About</h2>
           </div>
-          <p className="mt-6 text-lg">
+          <div className="block lg:hidden mt-6">
+            <Image
+              src="/images/zhekabaila-square.jpg"
+              alt="Zheka Baila Arkan Picture"
+              width={1000}
+              height={1000}
+              quality={100}
+              loading="lazy"
+              className="size-full object-center object-cover aspect-square grayscale-[0]"
+            />
+          </div>
+          <p className="mt-6 text-base lg:text-lg">
             Hi! I am Bayu Setiawan, a seasoned software engineer with a deep
             passion for creating elegant and efficient solutions through code.
             With a strong foundation in JavaScript and TypeScript, along with a
@@ -60,8 +71,8 @@ const About = () => {
       <section className="mx-4 lg:mx-36 py-10 mt-16">
         <div>
           <div className="flex items-center gap-x-4">
-            <div className="bg-black size-3 rounded-full" />
-            <h2 className="text-lg font-bold">Linimasa</h2>
+            <div className="bg-black size-2.5 lg:size-3" />
+            <h2 className="text-base lg:text-lg font-bold">Linimasa</h2>
           </div>
         </div>
         <div className="relative mt-10">
@@ -88,8 +99,8 @@ const About = () => {
       <section className="mx-4 lg:mx-36 py-10 mt-16">
         <div>
           <div className="flex items-center gap-x-4">
-            <div className="bg-black size-3 rounded-full" />
-            <h2 className="text-lg font-bold">SKills</h2>
+            <div className="bg-black size-2.5 lg:size-3" />
+            <h2 className="text-base lg:text-lg font-bold">SKills</h2>
           </div>
         </div>
         <Marquee className="py-3 mt-5" direction="left">
@@ -118,8 +129,8 @@ const About = () => {
       <section className="mx-4 lg:mx-36 py-10 my-16">
         <div>
           <div className="flex items-center gap-x-4">
-            <div className="bg-black size-3 rounded-full" />
-            <h2 className="text-lg font-bold">Certificates</h2>
+            <div className="bg-black size-2.5 lg:size-3" />
+            <h2 className="text-base lg:text-lg font-bold">Certificates</h2>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mt-8">
@@ -153,7 +164,7 @@ const About = () => {
       >
         <div className="flex flex-col justify-center items-center">
           <div className="flex items-center gap-x-4">
-            <h2 className="text-4xl lg:text-7xl font-bold">
+            <h2 className="text-4xl lg:text-7xl text-center font-bold">
               Mari lihat portofolio saya
             </h2>
           </div>

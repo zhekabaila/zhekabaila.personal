@@ -64,11 +64,11 @@
 }
 
 .Title {
-  @apply text-black text-xl font-bold pr-16 bg-white;
+  @apply text-black text-lg lg:text-xl font-bold pr-16 bg-white;
 }
 
 .Desc {
-  @apply text-black font-normal text-base mt-2 pr-16 -left-2 bg-white;
+  @apply text-black font-normal text-sm lg:text-base mt-2 pr-16 -left-2 bg-white;
 }
 
 .Bullet {

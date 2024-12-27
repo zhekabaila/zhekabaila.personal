@@ -25,15 +25,10 @@ export const HomeAbout = () => {
         </div>
         <div className="mt-10">
           <p className="text-base lg:text-lg font-medium">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-            officiis vel nihil molestias expedita beatae molestiae. Optio nulla
-            sapiente quos.
-          </p>
-          <br />
-          <p className="text-base lg:text-lg font-medium">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-            officiis vel nihil molestias expedita beatae molestiae. Optio nulla
-            sapiente quos.
+            Hi! Saya Zheka Baila Arkan Saya seorang mahasiswa Informatika di
+            Universitas Siliwangi Tasikmalaya, Jawa Barat, dan juga seorang
+            Junior Web Developer yang antusias dengan pengembangan teknologi
+            berbasis website.
           </p>
           <br />
           <MoreButton title="Lihat Selengkapnya" link="/about" />

@@ -30,30 +30,24 @@ const About = () => {
             />
           </div>
           <p className="mt-6 text-base lg:text-lg">
-            Hi! I am Bayu Setiawan, a seasoned software engineer with a deep
-            passion for creating elegant and efficient solutions through code.
-            With a strong foundation in JavaScript and TypeScript, along with a
-            comprehensive understanding of various frontend libraries and
-            frameworks, I heve been navigating the ever-evolving landscape of
-            web development with enthusiasm and dedication. Currently, reside in
-            Jakarta, Indonesia 🇮🇩.
+            Hi! Saya Zheka Baila Arkan Saya seorang mahasiswa Informatika di
+            Universitas Siliwangi Tasikmalaya, Jawa Barat, dan juga seorang
+            Junior Web Developer yang antusias dengan pengembangan teknologi
+            berbasis website.
             <br />
             <br />
-            As a fast learner and adaptive thinker, I thrive in dynamic
-            environments where innovation is the driving force. My collaborative
-            nature allows me to seamlessly integrate with teams, contributing
-            not only my technical prowess but also a humble attitude that values
-            every members input.
+            Dalam pengembangan website, saya memiliki pengalaman menggunakan
+            teknologi seperti Laravel, Next.js, dan React untuk membangun
+            aplikasi web yang fungsional dan responsif. Sebagai seorang Frontend
+            Web Developer, saya terbiasa menggunakan TailwindCSS untuk
+            menciptakan antarmuka pengguna yang modern, cepat, dan estetis.
             <br />
             <br />
-            This blog is my platform to share insights, experiences, and
-            discoveries from my journey as a software engineer. Join me as we
-            delve into the ever-exciting realm of technology, where each line of
-            code has the potential to shape the digital landscape in remarkable
-            ways. <br />
+            Saya senang mempelajari hal baru dan terus meningkatkan keterampilan
+            saya, terutama dalam menciptakan solusi yang dapat membantu
+            menyederhanakan proses dan meningkatkan efisiensi. <br />
             <br />
-            Thank you for visiting, and I look forward to embarking on this
-            knowledge-sharing adventure
+            Terimakasih telah berkunjung, semoga informasi tentang saya membuat anda tertarik untuk bekerja sama.
           </p>
         </div>
         <div className="hidden lg:block pl-10 border-l-4 border-l-black">

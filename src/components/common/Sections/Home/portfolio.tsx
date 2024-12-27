@@ -28,15 +28,10 @@ export const HomePortfolio = () => {
           </div>
           <div className="mt-10">
             <p className="text-base lg:text-lg font-medium">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-              officiis vel nihil molestias expedita beatae molestiae. Optio
-              nulla sapiente quos.
-            </p>
-            <br />
-            <p className="text-base lg:text-lg font-medium">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-              officiis vel nihil molestias expedita beatae molestiae. Optio
-              nulla sapiente quos.
+              Ayo! Lihat Proyek-Proyek Saya. Jelajahi berbagai proyek menarik
+              yang telah saya kerjakan menggunakan Laravel, Next.js, React, dan
+              TailwindCSS. Temukan karya terbaik saya dan lihat bagaimana
+              teknologi dapat menghadirkan solusi inovatif.
             </p>
             <br />
             <MoreButton title="Lihat Selengkapnya" link="/portfolio" />

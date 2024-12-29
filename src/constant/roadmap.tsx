@@ -1,4 +1,12 @@
-import { FaCss3, FaDatabase, FaHtml5, FaJs, FaPhp, FaReact } from 'react-icons/fa'
+import {
+  FaCss3,
+  FaDatabase,
+  FaGit,
+  FaHtml5,
+  FaJs,
+  FaPhp,
+  FaReact,
+} from 'react-icons/fa'
 import { RiNextjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiMysql } from 'react-icons/si'
 
@@ -128,6 +136,20 @@ export const roadmap = [
       {
         name: 'Youtube',
         url: 'https://youtube.com/playlist?list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h&si=7qpRX3KzZEtLow9L',
+      },
+    ],
+  },
+  {
+    name: 'Git',
+    icon: <FaGit size={24} />,
+    link: [
+      {
+        name: 'Youtube',
+        url: 'https://youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf&si=Hx5s2lQPAMRQqsjQ',
+      },
+      {
+        name: 'W3school',
+        url: 'https://www.w3schools.com/git/default.asp',
       },
     ],
   },

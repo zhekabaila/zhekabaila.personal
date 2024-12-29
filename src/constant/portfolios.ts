@@ -87,7 +87,8 @@ export const portfolios: PortfolioType[] = [
   },
   {
     title: 'Bookshelf Apps',
-    description: '',
+    description:
+      'Bookshelf ini adalah website untuk menejemen buku yang sudah atau belum dibaca. Website ini dibuat untuk memenuhi tugas akhir pada pelatihan Belajar Front-End Web untuk Pemula di Dicoding.',
     img: '/images/portfolios/bookshelf-apps.png',
     technology: ['tailwindcss', 'javascript', 'nextjs'],
     demo: 'https://bookshelf-apps-zeta.vercel.app/',
@@ -95,7 +96,8 @@ export const portfolios: PortfolioType[] = [
   },
   {
     title: 'Santay Dulu',
-    description: '',
+    description:
+      'Ini adalah proykek website landing page untuk mencari tempat liburan. Proyek ini saya buat untuk memenuhi tugas akhir pelatihan Belajar Dasar Pemrograman Web di Dicoding.',
     img: '/images/portfolios/santaydulu.png',
     technology: ['tailwindcss', 'javascript', 'nextjs'],
     demo: 'https://santaydulu.vercel.app/',
@@ -103,7 +105,8 @@ export const portfolios: PortfolioType[] = [
   },
   {
     title: 'Notes',
-    description: '',
+    description:
+      'Ini adalah proyek catatan yang saya buat untuk memenuhi tugas akhir pada pelatihan Belajar Membuat Aplikasi Web dengan React di Dicoding.',
     img: '/images/portfolios/notes-react.png',
     technology: ['tailwindcss', 'javascript', 'nextjs'],
     demo: 'https://notes-react-course-dicoding.vercel.app/',

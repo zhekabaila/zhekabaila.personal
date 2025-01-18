@@ -159,7 +159,7 @@ const About = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="flex items-center gap-x-4">
             <h2 className="text-4xl lg:text-7xl text-center font-bold">
-              Mari lihat portofolio saya
+              Ayo lihat portofolio saya
             </h2>
           </div>
           <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center w-full gap-6 mt-10">

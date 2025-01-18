@@ -4,7 +4,7 @@ export const HomeHero = () => {
       <h2 className="font-medium text-6xl lg:text-9xl leading-tight">
         Halo!
         <br />
-        nama saya <br />
+        saya <br />
         Zheka Baila Arkan
       </h2>
     </section>

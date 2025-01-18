@@ -16,7 +16,7 @@ export const HomeContact = () => {
             target="_blank"
             className="block bg-white hover:bg-stabilo px-5 py-2 border-2 border-black font-medium shadow-button"
           >
-            Instagtam Saya
+            Instagtam
           </Link>
           <Link
             href="/contact"

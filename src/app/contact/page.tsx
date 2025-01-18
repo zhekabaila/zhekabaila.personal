@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedinIn, FaMailBulk } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -91,6 +91,32 @@ const Contact = () => {
           </div>
         </div>
         <div className="hidden lg:block bg-white border-t-4 border-t-black border-x-4 border-x-black"></div>
+        <div className="hidden lg:block bg-white border-l-4 border-l-black"></div>
+        <div className="relative bg-[#31aa52] flex flex-col justify-center p-10 border-x-4 border-x-black border-t-4 border-t-black lg:border-t-4 overflow-hidden text-white">
+          <div className="absolute left-1/2 lg:left-auto lg:right-0 top-1/2 -translate-x-1/2 lg:-translate-x-0 -translate-y-1/2 opacity-40">
+            <FaMailBulk size={350} color="#fff" className="h-full w-auto" />
+          </div>
+          <div className="flex items-center gap-x-4 z-10">
+            <div className="bg-white size-2.5 lg:size-3" />
+            <h2 className="text-base lg:text-lg font-bold">Email</h2>
+          </div>
+          <div className="mt-10 z-10">
+            <p className="text-base lg:text-lg font-medium">
+              Hubungi saya langsung melalui email untuk diskusi, kolaborasi,
+              atau pertanyaan lebih lanjut.
+            </p>
+            <br />
+            <div className="flex">
+              <Link
+                href="https://instagram.com/zhekabaila"
+                target="_blank"
+                className="block bg-white/80 text-sm lg:text-base text-black hover:bg-white px-5 py-2 border-2 border-black font-medium"
+              >
+                Kunjungi
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )

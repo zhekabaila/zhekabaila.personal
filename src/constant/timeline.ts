@@ -12,11 +12,12 @@ export const timeline = [
   {
     title: 'Mengembangkan Website E-Agenda Kelas',
     desc: 'During this stage, a review will be conducted by the screening committee, which includes teams from IKEA SE, IKEA Indonesia, Supply Area SEA, and Instellar. Ten social enterprises will be selected and will undergo administration and due diligence procedures before joining the programme.',
-    date: '1 March - 30 April',
+    date: '1 November 2023',
   },
   {
-    title: 'Mengembangkan Website Kelulusan Siswa',
-    desc: 'During this stage, a review will be conducted by the screening committee, which includes teams from IKEA SE, IKEA Indonesia, Supply Area SEA, and Instellar. Ten social enterprises will be selected and will undergo administration and due diligence procedures before joining the programme.',
-    date: '1 March - 30 April',
+    title:
+      'Lulus dari SMK Negeri 1 Majalengka jurusan Rekayasa Perangkat Lunak',
+    desc: '',
+    date: '8 Mei 2024',
   },
 ]

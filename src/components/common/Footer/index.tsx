@@ -1,6 +1,6 @@
 'use client'
 
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 import { usePathname } from 'next/navigation'
 import { menus } from '@/constant/menu'
 import Link from 'next/link'
@@ -72,6 +72,15 @@ const Footer = () => {
               className="block bg-black p-2 rounded"
             >
               <FaGithub size={22} color="#ffffff" />
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="mailto:zhekabaila@gmail.com"
+              target="_blank"
+              className="block bg-black p-2 rounded"
+            >
+              <FaMailBulk size={22} color="#ffffff" />
             </Link>
           </li>
         </ul>

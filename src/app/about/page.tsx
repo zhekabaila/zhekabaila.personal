@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex flex-col justify-center lg:pr-10">
           <div className="flex items-center gap-x-4">
             <div className="bg-black size-2.5 lg:size-3" />
-            <h2 className="text-base lg:text-lg font-bold">About</h2>
+            <h2 className="text-base lg:text-lg font-bold">Tentang</h2>
           </div>
           <div className="block lg:hidden mt-6">
             <Image
@@ -47,7 +47,8 @@ const About = () => {
             saya, terutama dalam menciptakan solusi yang dapat membantu
             menyederhanakan proses dan meningkatkan efisiensi. <br />
             <br />
-            Terimakasih telah berkunjung, semoga informasi tentang saya membuat anda tertarik untuk bekerja sama.
+            Terimakasih telah berkunjung, semoga informasi tentang saya membuat
+            anda tertarik untuk bekerja sama.
           </p>
         </div>
         <div className="hidden lg:block pl-10 border-l-4 border-l-black">
@@ -94,7 +95,7 @@ const About = () => {
         <div>
           <div className="flex items-center gap-x-4">
             <div className="bg-black size-2.5 lg:size-3" />
-            <h2 className="text-base lg:text-lg font-bold">SKills</h2>
+            <h2 className="text-base lg:text-lg font-bold">Skil</h2>
           </div>
         </div>
         <Marquee className="py-3 mt-5" direction="left">
@@ -124,7 +125,7 @@ const About = () => {
         <div>
           <div className="flex items-center gap-x-4">
             <div className="bg-black size-2.5 lg:size-3" />
-            <h2 className="text-base lg:text-lg font-bold">Certificates</h2>
+            <h2 className="text-base lg:text-lg font-bold">Sertifikat</h2>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mt-8">

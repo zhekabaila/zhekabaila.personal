@@ -9,7 +9,7 @@ const Portfolio = () => {
       <section className="mx-4 lg:mx-36 py-10 mt-16">
         <div className="flex items-center gap-x-4">
           <div className="bg-black size-2.5 lg:size-3" />
-          <h2 className="text-base lg:text-lg font-bold">My Projects</h2>
+          <h2 className="text-base lg:text-lg font-bold">Proyek</h2>
         </div>
         <div className="grid grid-cols-1 gap-10 mt-20">
           {portfolios.map((item, index) => (

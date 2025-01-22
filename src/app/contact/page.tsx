@@ -108,7 +108,7 @@ const Contact = () => {
             <br />
             <div className="flex">
               <Link
-                href="https://instagram.com/zhekabaila"
+                href="mailto:zhekabaila@gmail.com"
                 target="_blank"
                 className="block bg-white/80 text-sm lg:text-base text-black hover:bg-white px-5 py-2 border-2 border-black font-medium"
               >
